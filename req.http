@@ -1,0 +1,19 @@
+GET https://mkulak.me/time
+
+###
+PATCH http://localhost:8080/counter?delta=1
+
+###
+PATCH http://localhost:8081/counter?delta=2
+
+###
+PATCH http://localhost:8082/counter?delta=10
+
+###
+GET http://localhost:8080/counter
+
+###
+GET http://localhost:8081/counter
+
+###
+GET http://localhost:8082/counter
