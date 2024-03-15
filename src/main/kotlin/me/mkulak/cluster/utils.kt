@@ -1,4 +1,4 @@
-package cluster
+package me.mkulak.cluster
 
 import io.vertx.core.Vertx
 import io.vertx.ext.web.Route

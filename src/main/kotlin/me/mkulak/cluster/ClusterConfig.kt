@@ -1,4 +1,4 @@
-package cluster
+package me.mkulak.cluster
 
 import io.aeron.CommonContext
 import io.aeron.archive.Archive

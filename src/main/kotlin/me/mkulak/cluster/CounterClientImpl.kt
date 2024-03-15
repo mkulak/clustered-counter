@@ -1,4 +1,4 @@
-package me.mkulak.me.mkulak.cluster
+package me.mkulak.cluster
 
 import io.aeron.cluster.client.AeronCluster
 import io.aeron.cluster.client.EgressListener

@@ -1,9 +1,5 @@
-package me.mkulak.me.mkulak.cluster
+package me.mkulak.cluster
 
-import cluster.ClusterConfig
-import cluster.env
-import cluster.handler
-import cluster.retry
 import io.aeron.cluster.ClusteredMediaDriver
 import io.aeron.cluster.client.AeronCluster
 import io.aeron.cluster.service.ClusteredServiceContainer
