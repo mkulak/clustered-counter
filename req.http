@@ -1,5 +1,3 @@
-GET https://mkulak.me/time
-
 ###
 PATCH http://localhost:8080/counter?delta=1
 

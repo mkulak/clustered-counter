@@ -1,10 +1,14 @@
 Sample app for aeron-cluster
 =
 
+App models single integer counter and provides http endpoints to read/change its value. 
+
 To run:
 =
 
-Create 3 run configurations in intellij idea:
+Run confgurations are located in [./run](/.run) folder.
+
+Alternatively, you can create 3 run configurations (one for each node) in intellij idea:
 
 Main class: `me.mkulak.cluster.MainKt`
 
@@ -15,5 +19,7 @@ environment vars:
 * `HTTP_PORT=8081;NODE_ID=1` for second node
 * `HTTP_PORT=8082;NODE_ID=2` for third node
 
+To interact:
+=
 Sample requests are [here](req.http)
 
